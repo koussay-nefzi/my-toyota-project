@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="files/logo.PNG" type="image/x-icon">
 </head>
+
 <body>
     <header>
-        <img  id="title" src="files/toyotalogo.png" alt="flag">
+        <img id="title" src="files/toyotalogo.png" alt="flag">
         <nav>
             <ul>
                 <li><a href="index.html">home</a></li>
@@ -20,59 +22,67 @@
             </ul>
         </nav>
     </header>
-    <main>
-            <div class="slider">
-                <div class="images">
-                    <input type="radio" name="slide" id="img1" checked>
-                    <input type="radio" name="slide" id="img2">
-                    <input type="radio" name="slide" id="img3">
-                    <input type="radio" name="slide" id="img4">
-                    <input type="radio" name="slide" id="img5">
-              <img src="files/image1.png" alt="img1" class="m1">
-              <img src="files/image2.png" alt="img2" class="m2">
-              <img src="files/image3.png" alt="img3" class="m3">
-              <img src="files/image4.png" alt="img4" class="m4">
-              <img src="files/image5.png" alt="img5" class="m5">
-                </div>
-                <div class="dots">
-                    <label for="img1"></label>
-                    <label for="img2"></label>
-                    <label for="img3"></label>
-                    <label for="img4"></label>
-                    <label for="img5"></label>
-                </div>
+    <main id="main">
+        <form action="#" method="post">
+            <fieldset id="fieldset">
+                <legend>your personnal information</legend>
+
+                <label class="len" for="name"> name :</label>
+                <input class="len" type="text" id="name" placeholder="your name" required><br>
+                <label class="len" for="email">email :</label>
+                <input class="len" type="email" name="email" id="email" placeholder="expl@gmail.com" required><br>
+                <label class="len" for="password">password :</label>
+                <input class="len" type="password" name="password" id="password" placeholder="your password"
+                    required><br>
+
+                <label class="len" for="age ">your age :</label>
+                <input class="len" type="date" name="age" id="age"><br>
+                <label class="len" for="phone number">phone number :</label>
+                <input class="len" type="tel" name="number" id="phone number" maxlength="12" minlength="12"  value="+216" placeholder="12345678" required><br>
+                <label class="len" for="sex">gender :</label>
+                <select class="len" name="sex" id="sex">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <div id="theend">
+                    <button type="submit"><input type="submit" name="ok" id="ok" value="Send"></button>
+                    <button type="reset"><input type="reset" name="no" id="no" value="Refuse"></button>
+            </fieldset>
             </div>
-            <video  controls  src="files/FirstEver GR Corolla  Toyota_1080p.mp4"  loop id="autoplay"></video>
-        
-            </script>
-<div id="left">
-        <h2>Toyota Motor Corporation</h2>
-        <p class="p">- Toyota Motor Corporation, most commonly known as Toyota, is a multinational automotive manufacturer with headquarters in Toyota, Aichi, Japan. Kiichiro Toyoda founded and incorporated Toyota on <span> August 28, 1937</span> . 364,445 employees from all around the globe made up Toyota’s corporate structure in <span> 2017</span>. Two years later, Toyota was the 10th largest company globally by revenue and one of the largest automobile manufacturers worldwide, based on sales. It actually managed to be the first one to produce over 10 million vehicles per year and has been doing so since <span> 2012 </span>. During the same year, Toyota announced the production of its 200 millionth vehicle, while in <span> July 2014 </span>, Toyota was the largest listed Japanese company based on market capitalisation and revenue.</p>
-        <br>
-        <p class="p">- Toyota is undeniably a global market leader in selling hybrid electric vehicles, and hydrogen fuel-cell vehicles. In <span> January 2020 </span>, it raised 15 million through cumulative global sales of Toyota and Lexus hybrid passenger car models. Moreover, as of <span> January 2017</span>, Toyota Prius is the world’s top-selling hybrid vehicle with more than 6 million units sold worldwide.</p>
-    </div>
+
+
+
+        </form>
     </main>
-<footer>
-    <p id="contact">contact us on :</p>
-    <div id="logos">
-<a href="https://www.facebook.com/TOYOTA.Global"><img  class="logos" src="files/fblogo.png" alt="facebook" id="fb"></a>
-<a href="https://www.youtube.com/user/TOYOTAglobal"> <img class="logos"  src="files/ytlogo.png" alt="youtube" id="yt"></a>
-<a href="https://twitter.com/toyota"><img  class="logos" src="files/ttlogo.png" alt="twitter" id="tw"></a>
-<a href="https://www.instagram.com/toyota/"><img  class="logos" src="files/instalogo.png" alt="instagramme" id="inst"></a>
-</div>
-    <img  class="flag" src="files/flag.png" alt="flag">
-    <pre>Proud Partner of Team USA</pre>
-    <pre>©2022 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.
+    <footer>
+        <p id="contact">contact us on :</p>
+        <div id="logos">
+            <a href="https://www.facebook.com/TOYOTA.Global"><img class="logos" src="files/fblogo.png" alt="facebook"
+                    id="fb"></a>
+            <a href="https://www.youtube.com/user/TOYOTAglobal"> <img class="logos" src="files/ytlogo.png" alt="youtube"
+                    id="yt"></a>
+            <a href="https://twitter.com/toyota"><img class="logos" src="files/ttlogo.png" alt="twitter" id="tw"></a>
+            <a href="https://www.instagram.com/toyota/"><img class="logos" src="files/instalogo.png" alt="instagramme"
+                    id="inst"></a>
+        </div>
+        <img class="flag" src="files/flag.png" alt="flag">
+        <pre>Proud Partner of Team USA</pre>
+        <pre>©2022 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.
         The use of Olympic Marks, Terminology and Imagery is authorized by the U.S. Olympic & Paralympic Committee pursuant to Title 
         36 U.S.Code Section 220506.</pre>
-<div id="end">
-        <ul>
-<li><a href="files/privacy.txt">privacy policy</a></li>
-<li><a href="files/california.txt">california policy</a></li>
-<li><a href="files/legal.txt">legal terms</a></li>
+        <div id="end">
+            <ul>
+                <li><a href="files/privacy.txt">privacy policy</a></li>
+                <li><a href="files/california.txt">california policy</a></li>
+                <li><a href="files/legal.txt">legal terms</a></li>
 
-</ul>
-</div>
-</footer>
+            </ul>
+        </div>
+        <p id="koussay">donne with ❤
+            by koussay-nefzi </p>
+    </footer>
 </body>
+
 </html>
