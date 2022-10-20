@@ -52,7 +52,7 @@ margin-bottom: 10px;
 
 .slider{
     position:relative;
-    width:85%;
+    width:75%;
     overflow: hidden;
     margin: auto;
 
@@ -115,8 +115,8 @@ nav ul li {
     
 }
 video{
-    height: 400px;
-    width: 650px;
+    height: 1000px;
+    width: 50%;
     margin-left: 10px;
 
 }
@@ -160,7 +160,7 @@ nav ul li a:hover{
     padding: 10px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
     color: red;
     text-transform: capitalize;
     text-shadow: rgb(249, 71, 0) 5px 5px 5px;
@@ -204,8 +204,8 @@ footer ul li a:hover{
     text-decoration: underline solid rgb(0, 39, 103);
     
 }
-#left{
-    background: linear-gradient(to right , rgb(192, 209, 249) , rgb(170, 72, 72));
+section{
+    background: linear-gradient(to right , rgb(129, 161, 234) , rgb(170, 72, 72));
     
 }
 p{
@@ -318,4 +318,26 @@ legend{
 #main{
     background-image: url(files/contactpic.png);
     background-size: 100%;
+}
+#main1{
+    justify-content: space-between;
+    display: flex;
+  
+   
+}
+
+section{
+  width: 50%;
+}
+aside{
+   
+}
+iframe{
+width: 50%;
+}
+#koussay{
+    float: right;
+    font-size: 10px;
+color: rgb(63, 94, 134);
+
 }
