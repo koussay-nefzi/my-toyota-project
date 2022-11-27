@@ -33,7 +33,7 @@ margin-bottom: 10px;
     margin-left: 4px;
 }
 .logos:hover{
- transform: scale(1.35) ;
+    transform: scale(1.35);
    
 }
 #fb{
@@ -265,10 +265,14 @@ i{
     width: 250px;
     height: 200px;
     display: inline-block;
-   float: right;
-   padding: 12px;
+    float: right;
+    padding: 12px;
  
  
+}
+#msg{
+    float: right;
+    padding-right: 100px;
 }
 .cars{
     display: inline-block;
@@ -293,6 +297,9 @@ label{
     text-align: center;
     color: rgb(163, 194, 245);
 }
+::placeholder{
+    color: blueviolet;
+}
 .len{
     width: 200px;
     text-align: center;
@@ -316,6 +323,7 @@ legend{
     line-height: 3;
     border: none;
     padding: 20px; 
+    
 
 }
 #ok{
@@ -337,9 +345,6 @@ legend{
 
 section{
   width: 50%;
-}
-aside{
-   
 }
 iframe{
 width: 50%;
